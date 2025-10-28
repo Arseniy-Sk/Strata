@@ -1,0 +1,288 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\1. Projects\\C#\\Wpf\\Browser\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5C5365AD-5F83-43E7-B603-9080DB7B850E}|Browser\\Browser.csproj|c:\\1. projects\\c#\\wpf\\browser\\browser\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C5365AD-5F83-43E7-B603-9080DB7B850E}|Browser\\Browser.csproj|solutionrelative:browser\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C5365AD-5F83-43E7-B603-9080DB7B850E}|Browser\\Browser.csproj|c:\\1. projects\\c#\\wpf\\browser\\browser\\browsersettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C5365AD-5F83-43E7-B603-9080DB7B850E}|Browser\\Browser.csproj|solutionrelative:browser\\browsersettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C5365AD-5F83-43E7-B603-9080DB7B850E}|Browser\\Browser.csproj|c:\\1. projects\\c#\\wpf\\browser\\browser\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C5365AD-5F83-43E7-B603-9080DB7B850E}|Browser\\Browser.csproj|solutionrelative:browser\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C5365AD-5F83-43E7-B603-9080DB7B850E}|Browser\\Browser.csproj|c:\\1. projects\\c#\\wpf\\browser\\browser\\settingswindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{5C5365AD-5F83-43E7-B603-9080DB7B850E}|Browser\\Browser.csproj|solutionrelative:browser\\settingswindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C5365AD-5F83-43E7-B603-9080DB7B850E}|Browser\\Browser.csproj|c:\\1. projects\\c#\\wpf\\browser\\browser\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C5365AD-5F83-43E7-B603-9080DB7B850E}|Browser\\Browser.csproj|solutionrelative:browser\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C5365AD-5F83-43E7-B603-9080DB7B850E}|Browser\\Browser.csproj|c:\\1. projects\\c#\\wpf\\browser\\browser\\devtoolswindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C5365AD-5F83-43E7-B603-9080DB7B850E}|Browser\\Browser.csproj|solutionrelative:browser\\devtoolswindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C5365AD-5F83-43E7-B603-9080DB7B850E}|Browser\\Browser.csproj|c:\\1. projects\\c#\\wpf\\browser\\browser\\devtoolswindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{5C5365AD-5F83-43E7-B603-9080DB7B850E}|Browser\\Browser.csproj|solutionrelative:browser\\devtoolswindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C5365AD-5F83-43E7-B603-9080DB7B850E}|Browser\\Browser.csproj|c:\\1. projects\\c#\\wpf\\browser\\browser\\settingswindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C5365AD-5F83-43E7-B603-9080DB7B850E}|Browser\\Browser.csproj|solutionrelative:browser\\settingswindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C5365AD-5F83-43E7-B603-9080DB7B850E}|Browser\\Browser.csproj|c:\\1. projects\\c#\\wpf\\browser\\browser\\navigationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C5365AD-5F83-43E7-B603-9080DB7B850E}|Browser\\Browser.csproj|solutionrelative:browser\\navigationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C5365AD-5F83-43E7-B603-9080DB7B850E}|Browser\\Browser.csproj|c:\\1. projects\\c#\\wpf\\browser\\browser\\browser.csproj.backup.tmp||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{5C5365AD-5F83-43E7-B603-9080DB7B850E}|Browser\\Browser.csproj|solutionrelative:browser\\browser.csproj.backup.tmp||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C5365AD-5F83-43E7-B603-9080DB7B850E}|Browser\\Browser.csproj|c:\\1. projects\\c#\\wpf\\browser\\browser\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{5C5365AD-5F83-43E7-B603-9080DB7B850E}|Browser\\Browser.csproj|solutionrelative:browser\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C5365AD-5F83-43E7-B603-9080DB7B850E}|Browser\\Browser.csproj|c:\\1. projects\\c#\\wpf\\browser\\browser\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{5C5365AD-5F83-43E7-B603-9080DB7B850E}|Browser\\Browser.csproj|solutionrelative:browser\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C5365AD-5F83-43E7-B603-9080DB7B850E}|Browser\\Browser.csproj|c:\\1. projects\\c#\\wpf\\browser\\browser\\url.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C5365AD-5F83-43E7-B603-9080DB7B850E}|Browser\\Browser.csproj|solutionrelative:browser\\url.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C5365AD-5F83-43E7-B603-9080DB7B850E}|Browser\\Browser.csproj|c:\\1. projects\\c#\\wpf\\browser\\browser\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C5365AD-5F83-43E7-B603-9080DB7B850E}|Browser\\Browser.csproj|solutionrelative:browser\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C5365AD-5F83-43E7-B603-9080DB7B850E}|Browser\\Browser.csproj|c:\\1. projects\\c#\\wpf\\browser\\browser\\packages.config||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{5C5365AD-5F83-43E7-B603-9080DB7B850E}|Browser\\Browser.csproj|solutionrelative:browser\\packages.config||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C5365AD-5F83-43E7-B603-9080DB7B850E}|Browser\\Browser.csproj|c:\\1. projects\\c#\\wpf\\browser\\browser\\app.manifest||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{5C5365AD-5F83-43E7-B603-9080DB7B850E}|Browser\\Browser.csproj|solutionrelative:browser\\app.manifest||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DevToolsWindow.xaml.cs",
+              "DocumentMoniker": "C:\\1. Projects\\C#\\Wpf\\Browser\\Browser\\DevToolsWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Browser\\DevToolsWindow.xaml.cs",
+              "ToolTip": "C:\\1. Projects\\C#\\Wpf\\Browser\\Browser\\DevToolsWindow.xaml.cs",
+              "RelativeToolTip": "Browser\\DevToolsWindow.xaml.cs",
+              "ViewState": "AgIAAJQAAAAAAAAAAAAYwLYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-28T13:59:32.13Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DevToolsWindow.xaml",
+              "DocumentMoniker": "C:\\1. Projects\\C#\\Wpf\\Browser\\Browser\\DevToolsWindow.xaml",
+              "RelativeDocumentMoniker": "Browser\\DevToolsWindow.xaml",
+              "ToolTip": "C:\\1. Projects\\C#\\Wpf\\Browser\\Browser\\DevToolsWindow.xaml",
+              "RelativeToolTip": "Browser\\DevToolsWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-28T13:59:13.118Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "SettingsWindow.xaml.cs",
+              "DocumentMoniker": "C:\\1. Projects\\C#\\Wpf\\Browser\\Browser\\SettingsWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Browser\\SettingsWindow.xaml.cs",
+              "ToolTip": "C:\\1. Projects\\C#\\Wpf\\Browser\\Browser\\SettingsWindow.xaml.cs",
+              "RelativeToolTip": "Browser\\SettingsWindow.xaml.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAmwC4AAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-28T13:58:52.747Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SettingsWindow.xaml",
+              "DocumentMoniker": "C:\\1. Projects\\C#\\Wpf\\Browser\\Browser\\SettingsWindow.xaml",
+              "RelativeDocumentMoniker": "Browser\\SettingsWindow.xaml",
+              "ToolTip": "C:\\1. Projects\\C#\\Wpf\\Browser\\Browser\\SettingsWindow.xaml",
+              "RelativeToolTip": "Browser\\SettingsWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-28T13:58:36.787Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "app.manifest",
+              "DocumentMoniker": "C:\\1. Projects\\C#\\Wpf\\Browser\\Browser\\app.manifest",
+              "RelativeDocumentMoniker": "Browser\\app.manifest",
+              "ToolTip": "C:\\1. Projects\\C#\\Wpf\\Browser\\Browser\\app.manifest",
+              "RelativeToolTip": "Browser\\app.manifest",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001203|",
+              "WhenOpened": "2025-10-28T12:55:08.756Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "packages.config",
+              "DocumentMoniker": "C:\\1. Projects\\C#\\Wpf\\Browser\\Browser\\packages.config",
+              "RelativeDocumentMoniker": "Browser\\packages.config",
+              "ToolTip": "C:\\1. Projects\\C#\\Wpf\\Browser\\Browser\\packages.config",
+              "RelativeToolTip": "Browser\\packages.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-10-28T12:13:59.374Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainViewModel.cs",
+              "DocumentMoniker": "C:\\1. Projects\\C#\\Wpf\\Browser\\Browser\\MainViewModel.cs",
+              "RelativeDocumentMoniker": "Browser\\MainViewModel.cs",
+              "ToolTip": "C:\\1. Projects\\C#\\Wpf\\Browser\\Browser\\MainViewModel.cs",
+              "RelativeToolTip": "Browser\\MainViewModel.cs",
+              "ViewState": "AgIAAL0AAAAAAAAAAAAmwMsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-28T12:09:13.016Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BrowserSettings.cs",
+              "DocumentMoniker": "C:\\1. Projects\\C#\\Wpf\\Browser\\Browser\\BrowserSettings.cs",
+              "RelativeDocumentMoniker": "Browser\\BrowserSettings.cs",
+              "ToolTip": "C:\\1. Projects\\C#\\Wpf\\Browser\\Browser\\BrowserSettings.cs",
+              "RelativeToolTip": "Browser\\BrowserSettings.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAzwDgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-28T12:09:01.003Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "NavigationService.cs",
+              "DocumentMoniker": "C:\\1. Projects\\C#\\Wpf\\Browser\\Browser\\NavigationService.cs",
+              "RelativeDocumentMoniker": "Browser\\NavigationService.cs",
+              "ToolTip": "C:\\1. Projects\\C#\\Wpf\\Browser\\Browser\\NavigationService.cs",
+              "RelativeToolTip": "Browser\\NavigationService.cs",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAzwGUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-28T12:08:41.973Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "RelayCommand.cs",
+              "DocumentMoniker": "C:\\1. Projects\\C#\\Wpf\\Browser\\Browser\\RelayCommand.cs",
+              "RelativeDocumentMoniker": "Browser\\RelayCommand.cs",
+              "ToolTip": "C:\\1. Projects\\C#\\Wpf\\Browser\\Browser\\RelayCommand.cs",
+              "RelativeToolTip": "Browser\\RelayCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAmwBoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-28T12:08:34.555Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Url.cs",
+              "DocumentMoniker": "C:\\1. Projects\\C#\\Wpf\\Browser\\Browser\\Url.cs",
+              "RelativeDocumentMoniker": "Browser\\Url.cs",
+              "ToolTip": "C:\\1. Projects\\C#\\Wpf\\Browser\\Browser\\Url.cs",
+              "RelativeToolTip": "Browser\\Url.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAADwvyAAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-28T12:08:24.871Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\1. Projects\\C#\\Wpf\\Browser\\Browser\\App.xaml.cs",
+              "RelativeDocumentMoniker": "Browser\\App.xaml.cs",
+              "ToolTip": "C:\\1. Projects\\C#\\Wpf\\Browser\\Browser\\App.xaml.cs",
+              "RelativeToolTip": "Browser\\App.xaml.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAYwC0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-28T12:08:13.813Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\1. Projects\\C#\\Wpf\\Browser\\Browser\\App.xaml",
+              "RelativeDocumentMoniker": "Browser\\App.xaml",
+              "ToolTip": "C:\\1. Projects\\C#\\Wpf\\Browser\\Browser\\App.xaml",
+              "RelativeToolTip": "Browser\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-28T12:08:04.811Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Browser.csproj.Backup.tmp",
+              "DocumentMoniker": "C:\\1. Projects\\C#\\Wpf\\Browser\\Browser\\Browser.csproj.Backup.tmp",
+              "RelativeDocumentMoniker": "Browser\\Browser.csproj.Backup.tmp",
+              "ToolTip": "C:\\1. Projects\\C#\\Wpf\\Browser\\Browser\\Browser.csproj.Backup.tmp",
+              "RelativeToolTip": "Browser\\Browser.csproj.Backup.tmp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-10-28T12:07:39.361Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\1. Projects\\C#\\Wpf\\Browser\\Browser\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "Browser\\MainWindow.xaml",
+              "ToolTip": "C:\\1. Projects\\C#\\Wpf\\Browser\\Browser\\MainWindow.xaml",
+              "RelativeToolTip": "Browser\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-28T11:54:33.775Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\1. Projects\\C#\\Wpf\\Browser\\Browser\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Browser\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\1. Projects\\C#\\Wpf\\Browser\\Browser\\MainWindow.xaml.cs",
+              "RelativeToolTip": "Browser\\MainWindow.xaml.cs",
+              "ViewState": "AgIAALUBAAAAAAAAAAAYwNcBAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-28T11:54:29.208Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

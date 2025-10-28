@@ -1,0 +1,90 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\1. Projects\\C#\\Wpf\\Browser\\Browser\\Browser.csproj": {}
+  },
+  "projects": {
+    "C:\\1. Projects\\C#\\Wpf\\Browser\\Browser\\Browser.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\1. Projects\\C#\\Wpf\\Browser\\Browser\\Browser.csproj",
+        "projectName": "Browser",
+        "projectPath": "C:\\1. Projects\\C#\\Wpf\\Browser\\Browser\\Browser.csproj",
+        "packagesPath": "C:\\Users\\zuban\\.nuget\\packages\\",
+        "outputPath": "C:\\1. Projects\\C#\\Wpf\\Browser\\Browser\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\WorkApps\\Visual Studio Packages\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\zuban\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0-windows7.0": {
+            "targetAlias": "net8.0-windows",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[9.0.10, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.4, )"
+            },
+            "Unofficial.Microsoft.mshtml": {
+              "target": "Package",
+              "version": "[7.0.3300, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

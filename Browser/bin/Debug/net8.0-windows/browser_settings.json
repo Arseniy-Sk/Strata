@@ -1,0 +1,16 @@
+{
+  "HomePage": "https://www.google.com",
+  "SearchEngine": "https://www.google.com/search?q=",
+  "EnableJavaScript": true,
+  "EnableCookies": true,
+  "EnableImages": true,
+  "BlockPopups": true,
+  "UserAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+  "HardwareAcceleration": true,
+  "DoNotTrack": false,
+  "CacheSizeMB": 100,
+  "ClearHistoryOnExit": false,
+  "ClearCacheOnExit": false,
+  "BlockThirdPartyCookies": true,
+  "SuppressScriptErrors": true
+}

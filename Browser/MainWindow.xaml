@@ -1,0 +1,122 @@
+﻿<Window x:Class="Browser.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="{Binding PageTitle}" 
+        Height="700" Width="1000"
+        WindowStartupLocation="CenterScreen">
+
+    <Window.Resources>
+        <BooleanToVisibilityConverter x:Key="BooleanToVisibilityConverter"/>
+
+        <Style x:Key="ModernButton" TargetType="Button">
+            <Setter Property="Background" Value="#3E3E42"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="Padding" Value="10,6"/>
+            <Setter Property="Margin" Value="2,0"/>
+            <Setter Property="FontSize" Value="12"/>
+            <Setter Property="Cursor" Value="Hand"/>
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Background" Value="#505054"/>
+                </Trigger>
+                <Trigger Property="IsEnabled" Value="False">
+                    <Setter Property="Background" Value="#2D2D30"/>
+                    <Setter Property="Foreground" Value="#656565"/>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+
+        <Style x:Key="AddressBarStyle" TargetType="TextBox">
+            <Setter Property="Background" Value="#3E3E42"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="Padding" Value="10,8"/>
+            <Setter Property="FontSize" Value="14"/>
+            <Setter Property="CaretBrush" Value="White"/>
+        </Style>
+    </Window.Resources>
+
+    <Grid Background="#1E1E1E">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <!-- Top Navigation Bar -->
+        <Border Grid.Row="0" Background="#252526" Padding="8" BorderThickness="0,0,0,1" BorderBrush="#3E3E42">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="Auto"/>
+                </Grid.ColumnDefinitions>
+
+                <!-- Navigation Controls -->
+                <StackPanel Grid.Column="0" Orientation="Horizontal" VerticalAlignment="Center">
+                    <Button Content="◄" Style="{StaticResource ModernButton}" 
+                            Command="{Binding NavigateBackCommand}" 
+                            ToolTip="Back" FontWeight="Bold" Width="30"/>
+
+                    <Button Content="►" Style="{StaticResource ModernButton}" 
+                            Command="{Binding NavigateForwardCommand}" 
+                            ToolTip="Forward" FontWeight="Bold" Width="30"/>
+
+                    <Button Content="↻" Style="{StaticResource ModernButton}" 
+                            Command="{Binding RefreshCommand}" 
+                            ToolTip="Refresh" FontWeight="Bold" Width="30"/>
+
+                    <Button Content="⌂" Style="{StaticResource ModernButton}" 
+                            Command="{Binding GoHomeCommand}" 
+                            ToolTip="Home" FontWeight="Bold" Width="30"/>
+                </StackPanel>
+
+                <!-- Address Bar -->
+                <TextBox Grid.Column="1" 
+                        Style="{StaticResource AddressBarStyle}" 
+                        Text="{Binding CurrentUrl, UpdateSourceTrigger=PropertyChanged}"
+                        Margin="10,0">
+                    <TextBox.InputBindings>
+                        <KeyBinding Key="Enter" Command="{Binding NavigateCommand}"/>
+                    </TextBox.InputBindings>
+                </TextBox>
+
+                <!-- Menu Button -->
+                <Button Grid.Column="2" Content="☰" Style="{StaticResource ModernButton}" 
+                        Click="MenuButton_Click" ToolTip="Menu" Width="30"/>
+            </Grid>
+        </Border>
+
+        <!-- Web Content Area -->
+        <Grid Grid.Row="1">
+            <!-- Loading Indicator -->
+            <Border Background="#80000000" Panel.ZIndex="1000" 
+                    Visibility="{Binding IsLoading, Converter={StaticResource BooleanToVisibilityConverter}}">
+                <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+                    <TextBlock Text="Loading..." Foreground="White" FontSize="16" 
+                              HorizontalAlignment="Center" Margin="0,0,0,10"/>
+                    <ProgressBar Width="200" Height="4" IsIndeterminate="True" 
+                                Background="Transparent">
+                        <ProgressBar.Foreground>
+                            <SolidColorBrush Color="#007ACC"/>
+                        </ProgressBar.Foreground>
+                    </ProgressBar>
+                </StackPanel>
+            </Border>
+
+            <!-- Web Browser Control -->
+            <WebBrowser x:Name="MainWebBrowser" 
+                       Navigating="MainWebBrowser_Navigating"
+                       LoadCompleted="MainWebBrowser_LoadCompleted"/>
+        </Grid>
+
+        <!-- Status Bar -->
+        <Border Grid.Row="2" Background="#007ACC" Padding="6,3">
+            <Grid>
+                <TextBlock Text="{Binding StatusMessage}" Foreground="White" 
+                          FontSize="11" VerticalAlignment="Center"/>
+            </Grid>
+        </Border>
+    </Grid>
+</Window>
