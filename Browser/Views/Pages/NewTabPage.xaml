@@ -1,0 +1,51 @@
+<UserControl x:Class="Browser.Views.Pages.NewTabPage"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             Background="{DynamicResource StartBg}">
+    <ScrollViewer Style="{StaticResource SlimScroll}" VerticalScrollBarVisibility="Auto" Focusable="False">
+        <StackPanel x:Name="Body" MaxWidth="940" Margin="32,72,32,64">
+            <TextBlock x:Name="Greeting" Style="{StaticResource Caps}" FontSize="11"/>
+
+            <TextBox x:Name="Headline" Style="{StaticResource BareTextBox}" FontFamily="{StaticResource DisplayFont}" FontSize="34"
+                     FontWeight="SemiBold" Margin="-2,10,0,26" TextWrapping="Wrap" ToolTip="Space title — click to rename"
+                     LostKeyboardFocus="Headline_LostFocus" KeyDown="Headline_KeyDown"/>
+
+            <Border x:Name="SearchCard" Height="56" CornerRadius="14" Background="{DynamicResource Panel}" BorderThickness="1"
+                    BorderBrush="{DynamicResource Hair}" Cursor="IBeam" MouseLeftButtonUp="SearchCard_Click">
+                <Border.Effect>
+                    <DropShadowEffect BlurRadius="40" ShadowDepth="14" Opacity="0.25" Color="{DynamicResource ShadowColor}"/>
+                </Border.Effect>
+                <Grid Margin="18,0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="Auto"/>
+                    </Grid.ColumnDefinitions>
+                    <TextBlock Text="&#xE721;" FontFamily="{StaticResource IconFont}" FontSize="15" Foreground="{DynamicResource Faint}"
+                               VerticalAlignment="Center" Margin="0,0,12,0"/>
+                    <TextBlock Grid.Column="1" x:Name="SearchHint" FontSize="15" Foreground="{DynamicResource Dim}" VerticalAlignment="Center"
+                               Text="Search, address, or command"/>
+                    <Border Grid.Column="2" BorderBrush="{DynamicResource Hair}" BorderThickness="1" CornerRadius="6" Padding="7,2" VerticalAlignment="Center">
+                        <TextBlock Text="Ctrl K" Style="{StaticResource Mono}" FontSize="11"/>
+                    </Border>
+                </Grid>
+            </Border>
+
+            <ContentControl x:Name="BookmarksHeader" Focusable="False"/>
+            <ItemsControl x:Name="BookmarksList">
+                <ItemsControl.ItemsPanel>
+                    <ItemsPanelTemplate><WrapPanel/></ItemsPanelTemplate>
+                </ItemsControl.ItemsPanel>
+            </ItemsControl>
+
+            <ContentControl x:Name="ResumeHeader" Focusable="False"/>
+            <UniformGrid x:Name="ResumeGrid"/>
+
+            <ContentControl x:Name="SpacesHeader" Focusable="False"/>
+            <UniformGrid x:Name="SpacesGrid"/>
+
+            <ContentControl x:Name="StatsHeader" Focusable="False"/>
+            <TextBlock x:Name="Stats" Style="{StaticResource Mono}" FontSize="11" TextWrapping="Wrap" TextTrimming="None" LineHeight="18"/>
+        </StackPanel>
+    </ScrollViewer>
+</UserControl>
